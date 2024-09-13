@@ -63,7 +63,7 @@ jobs:
       - name: Check out Electron app template
         uses: actions/checkout@v3
         with:
-          repository: lazerwalker/electron-wrapper-template
+          repository: SemiSnake/electron-wrapper-template2 //lazerwalker/electron-wrapper-template
           ref: v1.1.0
           path: app
 
