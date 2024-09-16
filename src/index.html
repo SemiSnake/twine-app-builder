@@ -17,11 +17,18 @@
  
   box-shadow: inline 0 0 5em 1em #0000
 }
+
 tw-icon.undo {
  display: none; 
 }
+
 tw-icon.redo {
  display: none; 
+}
+
+tw-sidebar
+{
+  display: none;
 }
 .rgb-bg1 {
   background-color: red;
@@ -175,9 +182,7 @@ li p {
   color: white;
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">var x = 10;
 console.log(x)
-function GetComputerName() {
-	console.log("Hostname:", window.hostname);
-}</script><tw-passagedata pid="1" name="Start" tags="test" position="800,325" size="100,100"> [[Go left| Untitled Passage 1]]
+document.getElementById("computerName").innerHTML = computerName;</script><tw-passagedata pid="1" name="Start" tags="test" position="800,325" size="100,100"> [[Go left| Untitled Passage 1]]
 (set: $global1 to 1)
 (set: _local1 to 1)
 $global1
