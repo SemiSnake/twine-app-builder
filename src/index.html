@@ -180,7 +180,11 @@ li {
 li p {
   text-align: center;
   color: white;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="test" position="800,325" size="100,100"> [[Go left| Untitled Passage 1]]
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript">const sysInfoBtn = document.getElementById('computerName')
+document.getElementById('computerName').innerHTML = `This app is using Chrome (v${versions.chrome()}), Node.js (v${versions.node()}), and Electron (v${versions.electron()})`
+console.log("Js loaded")
+
+</script><tw-passagedata pid="1" name="Start" tags="test" position="800,325" size="100,100"> [[Go left| Untitled Passage 1]]
 (set: $global1 to 1)
 (set: _local1 to 1)
 $global1
