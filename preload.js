@@ -1,11 +1,9 @@
-const { contextBridge } = require('electron');
-const os = require("os");
+const { contextBridge, ipcRenderer } = require('electron')
+
 contextBridge.exposeInMainWorld('versions', {
   node: () => process.versions.node,
   chrome: () => process.versions.chrome,
-  electron: () => process.versions.electron
+  electron: () => process.versions.electron,
+  ping: () => ipcRenderer.invoke('ping')
   // we can also expose variables, not just functions
 })
-contextBridge.exposeInMainWorld('os', {
-    hostname: () => os.hostname,
-  })
