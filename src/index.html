@@ -120,18 +120,25 @@ tw-sidebar {
 .ButtonChoices {
   display: flex;
   flex-wrap: nowrap;
+  position: fixed;
+  bottom:0;
+  right:0;
   width: 100%;
  	
 }
 .ButtonChoices tw-expression {
-  margin-right:10px;
-  width:100%
+  width:100%;
 }
+
+.ButtonChoices tw-expression:not(:last-child){
+  margin-right:10px;
+}
+
 .ButtonChoices div {
   background-color: rgb(0,0,0);
   color: white;
   width: 100%;
-  
+  z-index: 100;
   text-align: center;
   font-size: 20px;
   border: 5px solid white;
@@ -142,51 +149,10 @@ tw-sidebar {
 .ButtonChoices div p {
   user-select: none;
 }
-
-
-
-
-
-
-
-
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  background-color: #333333;
-  
-}
-
-
-
-
-
-
-
-li {
-  display: inline-block;
-  background-color: red;
-  margin-right:10px;
-  padding:0;
-}
-
-li p {
-  text-align: center;
-  color: white;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="PreStart" tags="test" position="800,300" size="100,100"> [[Start Game|Start]]
-
-(set: $global1 to 1)
-(set: _local1 to 1)
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="PreStart" tags="test" position="800,300" size="100,100"> [[Start Game|Start]]
 (set: $name to &quot;&quot;)
+(set: $chosenName to &quot;&quot;)
 {
-
-(set: $name to (prompt: &quot;What is your name?&quot;, &quot;Player&quot;))
-
 &lt;p&gt;&lt;span id =&quot;chosenName&quot;&gt;$name&lt;/span&gt;, is that correct?&lt;/p&gt;
 &lt;p&gt;Hello, &lt;span id =&quot;computerName&quot;&gt;player&lt;/span&gt;&lt;/p&gt;
 &lt;div class = &quot;rgb1&quot;&gt;&lt;h1&gt;YoYoYo3&lt;/h1&gt;&lt;/div&gt;
@@ -194,7 +160,6 @@ li p {
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Option 1&lt;/p&gt;&lt;/div&gt;|Start]]
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Option 2&lt;/p&gt;&lt;/div&gt;|Start]]
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Option 3&lt;/p&gt;&lt;/div&gt;|Start]]
-  
 &lt;/div&gt;
 }
 &lt;script src =&quot;renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="800,500" size="100,100">
@@ -271,8 +236,13 @@ You are walking home along a road next to your old school, it&#39;s cloudy, more
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Write your name&lt;/p&gt;&lt;/div&gt;|WriteName]]
 &lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="14" name="WriteName" tags="" position="800,1250" size="100,100">(set: $chosenName to (prompt: &quot;Whats your name? :)&quot;, &quot;Bucko&quot;))[
-Hi there &lt;span id =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?&quot;]
+}</tw-passagedata><tw-passagedata pid="14" name="WriteName" tags="" position="800,1250" size="100,100">$chosenName
+
+
+
+(change: ?text, (opacity:1))
+(if: $chosenName is &quot;&quot;)[(set: $chosenName to (prompt: &quot;What&#39;s your name? :)&quot;, &quot;Bucko&quot;))]
+[&lt;p&gt;Hi there, &lt;span id =&quot;computerName&quot;&gt;$chosenName&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?&quot;&lt;/p&gt;]&lt;text|
 {
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Yes&lt;/p&gt;&lt;/div&gt;|Yes1]]
