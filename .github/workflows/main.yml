@@ -26,7 +26,7 @@ jobs:
 
       - name: Set game configuration
         env:
-          APP_NAME: Dear Extravogent Amazing Thoughtful Helper.
+          APP_NAME: Dear Extravagant Amazing Thoughtful Helper.
           DESCRIPTION: Hi there!
 
           # This must be of the format "N.N.N", where the N's are all numbers
