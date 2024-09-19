@@ -153,7 +153,7 @@ tw-sidebar {
 (set: $name to &quot;&quot;)
 (set: $chosenName to &quot;&quot;)
 {
-&lt;p&gt;Hello, &lt;span id =&quot;computerName&quot;&gt;player&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Hello, &lt;span class =&quot;computerName&quot;&gt;player&lt;/span&gt;&lt;/p&gt;
 &lt;div class = &quot;rgb1&quot;&gt;&lt;h1&gt;YoYoYo3&lt;/h1&gt;&lt;/div&gt;
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Option 1&lt;/p&gt;&lt;/div&gt;|Start]]
@@ -241,7 +241,7 @@ You are walking home along a road next to your old school, it&#39;s cloudy, more
 
 (change: ?text, (opacity:1))
 (if: $chosenName is &quot;&quot;)[(set: $chosenName to (prompt: &quot;What&#39;s your name? :)&quot;, &quot;Bucko&quot;))]
-[&lt;p&gt;Hi there, &lt;span id =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?&quot;&lt;/p&gt;]&lt;text|
+[&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?&quot;&lt;/p&gt;]&lt;text|
 {
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Yes&lt;/p&gt;&lt;/div&gt;|Yes1]]
