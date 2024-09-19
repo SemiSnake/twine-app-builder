@@ -3,11 +3,12 @@ var comNameElements = document.getElementsByClassName("computerName")
 async function func(){
   console.log(comNameElements)
   for (let i of comNameElements) {
-    var sysInfoBtn = comNameElements[i]
+    console.log(i)
+    var sysInfoBtn = i
     const response = await window.versions.usernameQuery()
     console.log(sysInfoBtn);
     console.log(response);
-    sysInfoBtn.innerHTML= response
+    i.innerHTML= response
   }
 }
 func()
