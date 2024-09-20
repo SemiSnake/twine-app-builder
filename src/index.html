@@ -13,16 +13,38 @@
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: inline 0 0 5em 1em #0000
+  box-shadow: inline 0 0 5em 1em #0000;
+ 
 }
 
 tw-story[tags = "Outside"]{
   background-image: url("Media/Background1.png");
 }
 tw-story[tags = "Web"]{
-  background-image: url("Media/Background_web.png");
+  background-image: url("Media/Background_web2.png");
+  background-position: center;
+  background-size:contain;
+  background-attachment: scroll;
+  width: 100%;
+  height: 169%;
+}
+tw-passage[tags ="Web"]{
+  display: inline-block;
+  margin-top:13.5%;
+  width:92%;
+  left: 3%;
+  height: 64.7%;
+  border: 2px solid red;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+  scrollbar-width: thin;
+  overflow-y: scroll;
 }
 
+.webTextDiv {
+ 
+}
 /*
 tw-icon.undo {
  display: none; 
@@ -131,6 +153,7 @@ tw-sidebar {
   width: 100%;
  	
 }
+
 .ButtonChoices tw-expression {
   width:100%;
 }
@@ -153,6 +176,9 @@ tw-sidebar {
 }
 .ButtonChoices div p {
   user-select: none;
+}
+tw-passage[tags ="Web"] .ButtonChoices{
+	position: relative
 }
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Outside" color="red"></tw-tag><tw-tag name="Web" color="green"></tw-tag><tw-tag name="Intermission" color="purple"></tw-tag><tw-tag name="test" color="yellow"></tw-tag><tw-passagedata pid="1" name="PreStart" tags="test" position="800,275" size="100,100"> [[Start Game|Start]]
 (set: $name to &quot;&quot;)
@@ -201,7 +227,7 @@ You are walking home along a road next to your old school, it&#39;s cloudy, more
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Turn back and grab the ubs stick&lt;/p&gt;&lt;/div&gt;|GrabUsbStick]]
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Continue walking&lt;/p&gt;&lt;/div&gt;|ContinueWalking2]]
 &lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="7" name="ContinueWalking2" tags="Outside" position="500,975" size="100,100">You fall to your knees as the world around you gets blurry, there was something off about that pc and the weird usb stick. A stabbing pain hits your chest as you pass out. You wake up Infront of your pc with the usb stick in hand. Memories off what just happened fades as your only thought right now is to booth the pc and explore what this usb stick contains.
+}</tw-passagedata><tw-passagedata pid="7" name="ContinueWalking2" tags="Outside" position="500,1000" size="100,100">You fall to your knees as the world around you gets blurry, there was something off about that pc and the weird usb stick. A stabbing pain hits your chest as you pass out. You wake up Infront of your pc with the usb stick in hand. Memories off what just happened fades as your only thought right now is to booth the pc and explore what this usb stick contains.
 
 {
 &lt;div class = &quot;ButtonChoices&quot;&gt;
@@ -240,18 +266,52 @@ You are walking home along a road next to your old school, it&#39;s cloudy, more
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Write your name&lt;/p&gt;&lt;/div&gt;|WriteName]]
 &lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="14" name="WriteName" tags="Web" position="800,1250" size="100,100">$chosenName
+}</tw-passagedata><tw-passagedata pid="14" name="WriteName" tags="Web" position="800,1250" size="100,100">{
+&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?&quot;&lt;/p&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  &lt;br&gt;
+  Heiiiiii
 
+  &lt;div class = &quot;ButtonChoices&quot;&gt;
+    [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Yes&lt;/p&gt;&lt;/div&gt;|Yes1]]
+    [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;No&lt;/p&gt;&lt;/div&gt;|No1]]
+  &lt;/div&gt;
 
-
-(change: ?text, (opacity:1))
-(if: $chosenName is &quot;&quot;)[(set: $chosenName to (prompt: &quot;What&#39;s your name? :)&quot;, &quot;Bucko&quot;))]
-[&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?&quot;&lt;/p&gt;]&lt;text|
-{
-&lt;div class = &quot;ButtonChoices&quot;&gt;
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Yes&lt;/p&gt;&lt;/div&gt;|Yes1]]
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;No&lt;/p&gt;&lt;/div&gt;|No1]]
-&lt;/div&gt;
 }
 &lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="15" name="Yes1" tags="Web" position="700,1400" size="100,100">“Wonderful!” Glob&#39;s ears shot up in excitement, he has clearly not had an audience in a long time, but why should that matter if he is an AI? You look at your screen as Glob jumps around trying to calm himself down before asking the question. Seeing something artificial with this much emotion gives you the creeps yet you find it oddly amusing. Glob manages to contain his excitement before asking you “Ok ok ok, do you prefer DOGS orrrrr CATS!” 
 {
