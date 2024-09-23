@@ -9,7 +9,14 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Dear Extravagant Amazing Thoughtful Helper.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Dear Extravagant Amazing Thoughtful Helper" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="DDDB58A7-27C1-49E6-B7A9-007EDFAD24B1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
+<tw-storydata name="Dear Extravagant Amazing Thoughtful Helper" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="DDDB58A7-27C1-49E6-B7A9-007EDFAD24B1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+  word-break: break-word;
+}
+
+tw-story {
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,42 +27,158 @@
 tw-story[tags = "Outside"]{
   background-image: url("Media/Background1.png");
 }
-tw-story[tags = "Web"]{
-  background-image: url("Media/Background_web2.png");
-  background-position: center;
-  background-size:contain;
-  background-attachment: scroll;
-  width: 100%;
-  height: 169%;
+tw-story[tags ="Web"]{
+  position:absolute;
+  left:0;
+  top:0;
+  margin:0;
+  padding:0;
 }
-tw-passage[tags ="Web"]{
-  display: inline-block;
-  margin-top:13.5%;
-  width:92%;
-  left: 3%;
-  height: 64.7%;
-  border: 2px solid red;
-  padding-right: 10px;
-  padding-left: 10px;
-  color: black;
-  scrollbar-width: thin;
+tw-passage[tags = "Web"]{
+  position:absolute;
+  margin:0;
+  left:0;
+  top:0;
+  padding: 0px;
+  width: 100%;
+  height:100%;
+  min-height:500px;
+  row-gap: 10% 10% 10% 0 0;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  overflow: auto;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 22% 90% 40% 0 0;
+  grid-template-columns: 5% 5% 10% 5% 55% 5% 5% 10%;
+  grid-template-areas:
+    'header header header header header header header header'
+    'sidebarLeft sidebarLeft sidebarLeft main main sidebarRight sidebarRight sidebarRight'
+    '0 bottomLeft bottomLeft bottomLeft bottomMain bottomMain bottomMain bottomMain';
+}
+@keyframes transition_1 {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+tw-passage[tags ="Web"] > div {
+  text-align:center;
+  color:black;
+  font-size:20px;
+  border: 2px solid black;
+}
+tw-passage[tags ="Web"] .ButtonChoices{
+  position: relative;
+}
+.gridHeader{
+  grid-area: header;
+  background-size: cover;
+  background-position:right;
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287681706479976448/image.png?ex=66f26e8a&is=66f11d0a&hm=a612f96cb6f84373b0d72d2496929f8a2b0b8ccb144933e2dc6d2349d97dbb1d&");
+  
+}
+.gridSidebarLeft{
+  grid-area: sidebarLeft;
+  margin-top:7px;
+  margin-left:7px;
+  margin-bottom:7px;
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287683159600664628/image.png?ex=66f26fe5&is=66f11e65&hm=1affb0b4a82010ec4f4c4d7b7d037fd4f295f92124419d9afbfbae79cf9dad00&")
+}
+.gridMain{ 
+  grid-area: main;
+  word-break: break-word;
+  overflow: auto;
+  padding:5px;
+  margin:7px;
+}
+.gridMain p {
+ font-size: calc(13px +2vmin);
+  
+}
+.gridSidebarRight{
+  margin-top:7px;
+  margin-right:7px;
+  margin-bottom:7px;
+  grid-area: sidebarRight;
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287684980859732039/image.png?ex=66f27197&is=66f12017&hm=1e2b1adb81065e5181b822ac42597a1bd0ac9f168aaeee0ed1762d4ea0d62011&");
+  
+}
+.gridBottomLeft{
+  grid-area: bottomLeft;
   overflow-y: scroll;
+  margin: 15px;
+}
+.gridBottomLeftHeaderBox{
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.gridBottomLeftTextBox{
+  color: black;
+  padding-top:15px;
+  font-size: calc(10px + 0.7vmin);
+  position: relative;
+}
+.gridBottomLeftHeaderBox > h1 {
+  text-align: center;
+  color: white;
+  font-size: calc(20px + 3.3vmin);
+  -webkit-text-stroke-width: 2px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.gridBottomLeftHeaderBox > h1::after {
+  content: '';
+  position:absolute;
+  left: 15%;
+  bottom:-15px;
+  width: 75%; 
+  height: 2px; 
+  background-color: black; 
+}
+.gridBottomMain{
+  grid-area: bottomMain;
+  margin-right:7px;
+  margin-top: 15px;
+}
+.gridBottomMainHeaderBox {
+  padding-right: 15px;
+}
+.gridBottomMainHeaderBox > h1 {
+  text-align: right;
+  z-index:1;
+  color: white;
+  font-size: calc(20px + 3.3vmin);
+  -webkit-text-stroke-width: 2px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.gridBottomMainImageBox {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+.gridBottomMainImageBox img{
+  bottom:0;
+  margin-right:10%;
+  margin-left:4%;
+  width: 34%;
 }
 
-.webTextDiv {
- 
-}
-/*
-tw-icon.undo {
- display: none; 
-}
-tw-icon.redo {
- display: none; 
-}
-tw-sidebar {
-  display: none;
-}
-*/
+
 .rgb-bg1 {
   background-color: red;
   animation: rgb-bg 2.5s linear;
@@ -177,19 +300,59 @@ tw-sidebar {
 .ButtonChoices div p {
   user-select: none;
 }
+
+
+/*
 tw-passage[tags ="Web"] .ButtonChoices{
 	position: relative
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Outside" color="red"></tw-tag><tw-tag name="Web" color="green"></tw-tag><tw-tag name="Intermission" color="purple"></tw-tag><tw-tag name="test" color="yellow"></tw-tag><tw-passagedata pid="1" name="PreStart" tags="test" position="800,275" size="100,100"> [[Start Game|Start]]
-(set: $name to &quot;&quot;)
+
+
+tw-icon.undo {
+ display: none; 
+}
+tw-icon.redo {
+ display: none; 
+}
+tw-sidebar {
+  display: none;
+}
+
+tw-passage[tags ="Web"]{
+  display: inline-block;
+  margin-top:13.5%;
+  width:92%;
+  left: 3%;
+  height: 64.7%;
+  border: 2px solid red;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: black;
+  scrollbar-width: thin;
+  overflow-y: scroll;
+}
+
+
+
+tw-story[tags = "Web"]{
+  background-image: url("Media/Background_web2.png");
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1286293613848039424/image.png?ex=66ee0a87&is=66ecb907&hm=e5aad4d8a4cafa89aabb9c3ba8f6a4c21e31ab5e84afc14dad4875963bd84ab2&");
+  background-color:white;
+  background-position: center;
+  background-size:contain;
+  background-attachment: scroll;
+  width: 100%;
+  height: 169%;
+}
+*/</style><script role="script" id="twine-user-script" type="text/twine-javascript">window.onload = (event) => {
+ console.log("Page loaded") 
+}</script><tw-tag name="Outside" color="red"></tw-tag><tw-tag name="Web" color="green"></tw-tag><tw-tag name="Intermission" color="purple"></tw-tag><tw-tag name="test" color="yellow"></tw-tag><tw-tag name="GridTesting" color="orange"></tw-tag><tw-passagedata pid="1" name="PreStart" tags="test" position="800,275" size="100,100">(set: $name to &quot;&quot;)
 (set: $chosenName to &quot;&quot;)
 {
 &lt;p&gt;Hello, &lt;span class =&quot;computerName&quot;&gt;player&lt;/span&gt;&lt;/p&gt;
-&lt;div class = &quot;rgb1&quot;&gt;&lt;h1&gt;YoYoYo3&lt;/h1&gt;&lt;/div&gt;
+&lt;div class = &quot;rgb1&quot;&gt;&lt;h1&gt;Rgb effect&lt;/h1&gt;&lt;/div&gt;
 &lt;div class = &quot;ButtonChoices&quot;&gt;
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Option 1&lt;/p&gt;&lt;/div&gt;|Start]]
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Option 2&lt;/p&gt;&lt;/div&gt;|Start]]
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Option 3&lt;/p&gt;&lt;/div&gt;|Start]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Start Game&lt;/p&gt;&lt;/div&gt;|Start]]
 &lt;/div&gt;
 }
 &lt;script src =&quot;renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="Outside" position="800,475" size="100,100">
@@ -266,99 +429,287 @@ You are walking home along a road next to your old school, it&#39;s cloudy, more
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Write your name&lt;/p&gt;&lt;/div&gt;|WriteName]]
 &lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="14" name="WriteName" tags="Web" position="800,1250" size="100,100">{
-&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?&quot;&lt;/p&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  &lt;br&gt;
-  Heiiiiii
+}</tw-passagedata><tw-passagedata pid="14" name="WriteName" tags="Web" position="800,1250" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;{
 
-  &lt;div class = &quot;ButtonChoices&quot;&gt;
-    [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Yes&lt;/p&gt;&lt;/div&gt;|Yes1]]
-    [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;No&lt;/p&gt;&lt;/div&gt;|No1]]
-  &lt;/div&gt;
+}&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;{
 
+}&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
+{
+&lt;div class = &quot;ButtonChoices&quot;&gt;
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
+&lt;/div&gt;
 }
-&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="15" name="Yes1" tags="Web" position="700,1400" size="100,100">“Wonderful!” Glob&#39;s ears shot up in excitement, he has clearly not had an audience in a long time, but why should that matter if he is an AI? You look at your screen as Glob jumps around trying to calm himself down before asking the question. Seeing something artificial with this much emotion gives you the creeps yet you find it oddly amusing. Glob manages to contain his excitement before asking you “Ok ok ok, do you prefer DOGS orrrrr CATS!” 
+&lt;/div&gt;{
+
+}&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="15" name="Yes1" tags="Web" position="700,1400" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
 {
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
 &lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="16" name="No1" tags="Web" position="900,1400" size="100,100">“Oh... il ask you anyways!” You notice, he has clearly not had an audience in a long time, but why should that matter if he is an AI? ? “The question is just if you prefer dogs or cats!” glob says in a soft and happy tone. You decide to play along as its just some questions.
+}
+&lt;/div&gt;
 
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="16" name="No1" tags="Web" position="900,1400" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
 {
 &lt;div class = &quot;ButtonChoices&quot;&gt;
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
   [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
 &lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="17" name="Cats" tags="Web" position="700,1525" size="100,100">As you type in your answer “Cats” a bunch of cat pictures appear in the program. Glob jumps around yet again, looking at the cat pictures as he talks in a very jolly tone and purple goo falling off him everytime he lands “Woaah, i love cats! I think we are going to get along so well!” The images start to fade as Glob almost yells out &quot;Next question, next question!&quot;
+}
+&lt;/div&gt;
 
-{
-&lt;div class = &quot;ButtonChoices&quot;&gt;
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Wait for next question&lt;/p&gt;&lt;/div&gt;|WaitForQuestion1]]
-&lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="18" name="Dogs" tags="Web" position="900,1525" size="100,100">As you type in your answer “Dogs” a bunch of dog pictures appear in the program. “Woah look at all of them puppers! I love dogs!” Glob jumps around looking at the cute dog images, pieces off goo falls off him as he hits the ground. “Next question, next question!” Glob says happily as the pictures begin to fade.
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
 
-{
-&lt;div class = &quot;ButtonChoices&quot;&gt;
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Wait for next question&lt;/p&gt;&lt;/div&gt;|WaitForQuestion1]]
-&lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="19" name="WaitForQuestion1" tags="Web" position="800,1650" size="100,100">Glob thugs at his golden ribbon as he thinks off a question, he is walking in circles, but his head is standing still, twisting around on top off his gooey body constantly. Glob’s face lightens up as he goes “OH OH OH I KNOW!” “Hehe, what is your favorite time of day! Night or day!” 
-{
-&lt;div class = &quot;ButtonChoices&quot;&gt;
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Day&lt;/p&gt; &lt;/div&gt;|Day]]
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Night&lt;/p&gt;&lt;/div&gt;|Night]]
-&lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="20" name="Day" tags="Web" position="700,1775" size="100,100">Glob’s eyes are widened in expectation as he awaits your next answer. “Oooooh, day is your favorite? Thats cool but my favorite time of the day is NIGHT! I&#39;ve prepared something to show you how much i enjoy this nocturnal time!” Glob suddenly runs off the program and starts browsing on the world wide web. You are confused about how a program can do these sorts of things. Jumping around your screen, behaving like a living thing and so on. Before your mind wanders off completely, glob speaks up “Found it! This is my old home!” You look upon an old website as the program seems to hover in the middle, old ads are appearing on the side of the website and Glob looks back at you again. “Aw man, i remember there used be such a beautiful night sky here” Glob’s ears fall, clearly showing he is displeased. The website has clearly not been updated in the past for the past several years, it&#39;s surprising that it&#39;s still working. Suddenly 2 choices appear on your screen.
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
 
-{
-&lt;div class = &quot;ButtonChoices&quot;&gt;
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Ignore Glob&lt;/p&gt; &lt;/div&gt;|IgnoreGlob]]
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Comfort Glob&lt;/p&gt;&lt;/div&gt;|ComfortGlob]]
-&lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="21" name="Night" tags="Web" position="900,1775" size="100,100">Glob’s eyes are widened in expectation as he awaits your next answer. ”YIPPIEE, Night is my favorite time of the day too! And I&#39;ve prepared something special for this occasion!&quot; Glob suddenly runs off the program and starts browsing on the world wide web. You are confused about how a program can do these sorts of things. Jumping around your screen, behaving like a living thing and so on. Before your mind wanders off completely, glob speaks up “Found it! This is my old home!” You look upon an old website as the program seems to hover in the middle, old ads are appearing on the side of the website and Glob looks back at you again. “Aw man, i remember there used be such a beautiful night sky here” Glob’s ears fall, clearly showing he is displeased. The website has clearly not been updated in the past for the past several years, it&#39;s surprising that it&#39;s still working. Suddenly 2 choices appear on your screen.
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
 
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="17" name="Cats" tags="Web" position="700,1525" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
 {
 &lt;div class = &quot;ButtonChoices&quot;&gt;
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Ignore Glob&lt;/p&gt; &lt;/div&gt;|IgnoreGlob]]
-  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Comfort Glob&lt;/p&gt;&lt;/div&gt;|ComfortGlob]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
 &lt;/div&gt;
-}</tw-passagedata><tw-passagedata pid="22" name="IgnoreGlob" tags="Web" position="700,1925" size="100,100">You click the *Ignore Glob* option. “Why would you do that? I&#39;m clearly not having a good time?” Glob says, staring right at you.</tw-passagedata><tw-passagedata pid="23" name="ComfortGlob" tags="Web" position="900,1925" size="100,100">You click the *Comfort Glob* option. A hand appears on the program trying to pet Glob. The hand passes right through his slimy body. A smile appears on globs face, lightening up his mood Aswell as his ideas, he chuckles “It tingles!” It seems comforting the little bunny blob has been successful. His ears are back up and it seems like he is grinding gears to come up with more questions for you. “Hmmmmm, I&#39;ve been wondering. How does the outside world look?”</tw-passagedata></tw-storydata>
+}
+&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="18" name="Dogs" tags="Web" position="900,1525" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
+{
+&lt;div class = &quot;ButtonChoices&quot;&gt;
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
+&lt;/div&gt;
+}
+&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="19" name="WaitForQuestion1" tags="Web" position="800,1650" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
+{
+&lt;div class = &quot;ButtonChoices&quot;&gt;
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
+&lt;/div&gt;
+}
+&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="20" name="Day" tags="Web" position="700,1775" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
+{
+&lt;div class = &quot;ButtonChoices&quot;&gt;
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
+&lt;/div&gt;
+}
+&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="21" name="Night" tags="Web" position="900,1775" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
+{
+&lt;div class = &quot;ButtonChoices&quot;&gt;
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
+&lt;/div&gt;
+}
+&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="22" name="IgnoreGlob" tags="Web" position="700,1925" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
+{
+&lt;div class = &quot;ButtonChoices&quot;&gt;
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
+&lt;/div&gt;
+}
+&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata><tw-passagedata pid="23" name="ComfortGlob" tags="Web" position="900,1925" size="100,100">&lt;div class =&quot;gridHeader&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarLeft&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridMain&quot;&gt;{&lt;p&gt;Hi there, &lt;span class =&quot;computerName&quot;&gt;&lt;/span&gt;! That is really nice name! &quot;Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
+Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd&lt;/p&gt;}
+{
+&lt;div class = &quot;ButtonChoices&quot;&gt;
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Cats&lt;/p&gt;&lt;/div&gt;|Cats]]
+  [[&lt;div class = &quot;ButtonOption&quot;&gt;&lt;p&gt;Dogs&lt;/p&gt;&lt;/div&gt;|Dogs]]
+&lt;/div&gt;
+}
+&lt;/div&gt;
+
+&lt;div class =&quot;gridSidebarRight&quot;&gt;&lt;/div&gt;
+
+&lt;div class =&quot;gridBottomLeft&quot;&gt;{
+&lt;div class =&quot;gridBottomLeftHeaderBox&quot;&gt;
+&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;S&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;e&lt;/span&gt; &lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;U&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #ffcd82;&quot;&gt;p&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;d&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;a&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;t&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;s&lt;/span&gt;}&lt;/div&gt;
+&lt;div class =&quot;gridBottomLeftTextBox&quot;&gt;&lt;p&gt;17.09.2010 - NEW ARTICLE&lt;br&gt;&lt;br&gt;01.08.2010 - GLOB&#39;S FANTASTIC QUIZ!&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;div class =&quot;gridBottomMain&quot;&gt;{
+}&lt;div class =&quot;gridBottomMainHeaderBox&quot;&gt;{
+}&lt;h1&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;W&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: red;&quot;&gt;e&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;b&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;r&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: green;&quot;&gt;i&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: blue;&quot;&gt;n&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color:  #ffcd82;&quot;&gt;g&lt;/span&gt;&lt;span style =&quot;-webkit-text-stroke-color: #d671e4;&quot;&gt;s&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;{
+}&lt;div class =&quot;gridBottomMainImageBox&quot;&gt;
+&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&amp;is=66f14ec0&amp;hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&amp;&quot;&gt;&lt;/img&gt;{
+}&lt;img src=&quot;https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&amp;is=66f14eda&amp;hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&amp;&quot;&gt;&lt;/img&gt;&lt;/div&gt;&lt;/div&gt;{
+
+}&lt;script src =&quot;Renderer.js&quot;&gt;&lt;/script&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
