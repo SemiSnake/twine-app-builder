@@ -1249,7 +1249,7 @@ With a press of the enter key, you are finally on your PC's home screen, now eve
 
 }<div class ="gridSidebarLeft">{
 }<div class ="gridSidebarLeftGlobDiv">{
-}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160864294506496/Excited_Glob.png?ex=66f32613&is=66f1d493&hm=0b241ef13524f6f38e7cc0c7b42d93d48ee2c916919cd534a8945c43db361d82&"></img></div>{
+}<img src ="Media/Excited_Glob.png"></img></div>{
 }<div class ="gridSidebarLeftImageDiv2"></div>{
 }</div>{
 
@@ -1276,8 +1276,8 @@ Is it okay if I ask you some questions? Just so i can get to know you even bette
 }<div class ="gridBottomMainHeaderBox">{
 }<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
 }<div class ="gridBottomMainImageBox">
-<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
-}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+<img src="Media/PakkeselImage.png"></img>{
+}<img src="Media/HenryCarlsonImage.png"></img></div></div>{
 
 }<script src ="Renderer.js"></script>
 
@@ -1402,7 +1402,7 @@ tw-passage[tags = "JumpScare"]{
   position:fixed;
   z-index: 999;
   opacity: 0;
-background-image: url("https://cdn.discordapp.com/attachments/1282997836941754464/1286620547429695592/Sad_Glob.png?ex=66f286c2&is=66f13542&hm=08f9a6317b6edd2afe1af3786d0a5117577b1e9ace84b15da5099e3f4b0ec9c7&");
+background-image: url("Media/Sad_Glob.png");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -1413,7 +1413,7 @@ background-image: url("https://cdn.discordapp.com/attachments/128299783694175446
  
 }
 tw-story[tags = "Intermission"]{
-background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287944840906276935/Background2Edited.png?ex=66f3639a&is=66f2121a&hm=f5896468a898c6c0b921e16e67d57ec40b970293b17884cfc3edd1a2f21bd5e4&")
+background-image: url("Media/Background2Edited.png")
 }
 tw-passage[tags ="GameOver"]{
   position:absolute;
@@ -1423,10 +1423,10 @@ tw-passage[tags ="GameOver"]{
   top:0;
   height:100%;
   width:100%;
-  background-image: url("https://cdn.discordapp.com/attachments/1282997836941754464/1287693503358304299/GAME_OVER_screen.png?ex=66f32247&is=66f1d0c7&hm=9a694c372478b6d01de3ea103043bd2f981615e74837f9704b2533f8bb353a1e&");
+  background-image: url("Media/GAME_OVER_screen.png");
 }
 tw-story[tags = "Outside"]{
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287945248185516093/Background1Edited.png?ex=66f363fc&is=66f2127c&hm=df996b89f3b806863916e5ff7e2cd285b98b0621ef00766577149387721741a4&");
+  background-image: url("Background1Edited.png");
 }
 tw-story[tags ="Web"]{
   position:absolute;
@@ -1484,7 +1484,7 @@ tw-passage[tags ="Web"] .ButtonChoices{
   grid-area: header;
   background-size: cover;
   background-position:right;
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287681706479976448/image.png?ex=66f26e8a&is=66f11d0a&hm=a612f96cb6f84373b0d72d2496929f8a2b0b8ccb144933e2dc6d2349d97dbb1d&");
+  background-image: url("Media/HeaderImageForWeb.png");
 }
 
 .gridSidebarLeft{
@@ -1498,7 +1498,7 @@ tw-passage[tags ="Web"] .ButtonChoices{
   width:100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287898227634606254/image.png?ex=66f33831&is=66f1e6b1&hm=db8bbafcec3e467f9e8f9c97437a25c79cf6df498902f6674d848dc69b0dc959&");
+  background-image: url("Media/SideBarLeft1.png");
 }
 .gridSidebarLeftGlobDiv img{
   height:100%;
@@ -1508,7 +1508,7 @@ tw-passage[tags ="Web"] .ButtonChoices{
   width:100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287898976250499132/image.png?ex=66f338e3&is=66f1e763&hm=fb06955aabffa5698268df42482d8a4f0addcaae30551d66ae58fc2c0dc65ab9&");
+  background-image: url("Media/SideBarLeft2.png");
 }
 .gridMain{ 
   grid-area: main;
@@ -1536,7 +1536,7 @@ tw-passage[tags ="Web"] .ButtonChoices{
   width:100%;
   background-position:center;
   background-repeat: no-repeat;
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287900978250649660/image.png?ex=66f33ac1&is=66f1e941&hm=f360c87f5a826908994b2412b85f0ec49957a580a838c386e82214a4334d3137&");
+  background-image: url("Media/SideBarRight1.png");
   
 }
 .gridSidebarRightImageDiv2{
@@ -1545,7 +1545,7 @@ tw-passage[tags ="Web"] .ButtonChoices{
   background-size:contain;
   background-position:center;
   background-repeat: no-repeat;
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287901206941011968/image.png?ex=66f33af7&is=66f1e977&hm=13c332d29f83c9ef4897ab53aeb110ba7fd7c27fe6f35f9a70a0d2ceda06eced&");
+  background-image: url("Media/SideBarRight2.png");
   
 }
 .gridBottomLeft{
@@ -1748,7 +1748,7 @@ tw-passage[tags ="Web"] .ButtonChoices{
 	position: relative
 }
 
-
+*/
 tw-icon.undo {
  display: none; 
 }
@@ -1758,7 +1758,7 @@ tw-icon.redo {
 tw-sidebar {
   display: none;
 }
-
+/*
 tw-passage[tags ="Web"]{
   display: inline-block;
   margin-top:13.5%;
