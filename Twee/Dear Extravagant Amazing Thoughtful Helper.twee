@@ -13,40 +13,36 @@ Dear Extravagant Amazing Thoughtful Helper
     "Web": "green",
     "Intermission": "purple",
     "test": "yellow",
-    "GridTesting": "orange"
+    "GridTesting": "orange",
+    "GameOver": "yellow"
   },
   "zoom": 1
 }
 
 
-:: CallYourParents [Outside] {"position":"675,850","size":"100,100"}
-You call your parents, a solid 5-minutes pass by without an answer. You try calling again a few times, but you never reach them. You give up on calling and think of something else.
+:: AFriendMaybe [Web] {"position":"500,2250","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285208632241426495/Scary_Glob_1.png?ex=66f2a9cf&is=66f1584f&hm=ba5b3de91446a007a9747f019ea64155b4358435abf950ba83cebdb33377d864&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“You liar... friends would never lie” The invisible pressure around your neck clamps down, suffocating you slowly as the light fades around you.
+You collapse onto your bedroom floor. Your body is found hours later, your PC missing along with your heart.</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Look around for the key</p></div>|LookAroundForKey]]
-  [[<div class = "ButtonOption"><p>Check the door</p></div>|CheckTheDoor]]
+  [[<div class = "ButtonOption"><p>...</p></div>|GameOver]]
 </div>
 }
+</div>{
 
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-:: Cats [Web] {"position":"700,1525","size":"100,100"}
-<div class ="gridHeader"></div>
-
-<div class ="gridSidebarLeft"></div>
-
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
-{
-<div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
-</div>
-}
-</div>
-
-<div class ="gridSidebarRight"></div>
-
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -61,8 +57,98 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 }<script src ="Renderer.js"></script>
 
 
-:: CheckTheDoor [Outside] {"position":"925,850","size":"100,100"}
-You test the door anyways, checking if it was even locked in the first place. To your Suprise the door slides right open. The idea of entering your house after realizing the door to your house is open with no know people nearby gives you the creeps. Where is the house key? And what if someone has broken in? These are questions that repeat in your head as you bite your teeth and enter your home. You look around the house to see if anything is out of the ordinary. But other than the front door being open nothing seems out off the ordinary. The living room, bathroom and kitchen are as they always has been. With everything checked, you go to your room ready to explore what the usb stick contains. You sit down infront off your pc ready to booth everything up, a feeling off unexplainable deja vu hits you.
+:: BadEnding1 [JumpScare] {"position":"500,3975","size":"100,100"}
+<div class ="cantEscapeText">YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE YOU CAN'T ESCAPE </div> [<div class = "jumpScareClass"></div>]<currentGlob|(after: time + 10s)[(replace: ?currentGlob)[<div class ="jumpScareClass" style ="background-image: url('https://cdn.discordapp.com/attachments/1282997836941754464/1286620547907588106/Scary_Glob_2.png?ex=66f286c2&is=66f13542&hm=6616aa248fa0e84650d83714696c6d2a13d886800179a8f6161b1a280981e9f6&'); opacity:1;"></div><audio controls autoplay><source src ='Media/glitch-sound-effect.mp3' type ='audio/mp3'></audio>]]<script src ="Renderer.js"></script>
+
+
+:: CallYourParents [Intermission] {"position":"675,850","size":"100,100"}
+You call your parents, a solid 5-minutes pass by without an answer. You try calling again for a few times, but you never reach them. You give up on calling and think of something else.{
+(if:(visited: "LookAroundForKey") is false)[
+<div class = "ButtonChoices">[[<div class = "ButtonOption"><p>Look around for the key</p></div>|LookAroundForKey]] [[<div class = "ButtonOption"><p>Check the door</p></div>|CheckTheDoor]]</div>](else:)[<div class = "ButtonChoices">[[<div class = "ButtonOption"><p>Check the door</p></div>|CheckTheDoor]]</div>]}
+
+
+:: CantBreathe [Web] {"position":"600,3350","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“I cant.. You’re a program, Glob. You’re not a person. You can’t just leave the internet. You exist here, in the code, in the system. That’s your world.” you utter with the little breath you can gather. “But it’s not enough!" Glob’s voice was louder now, urgent. "I’m more than just code. You said it yourself—I'm conscious. I’m aware. I know I’m trapped here, and I’m asking for your help. You MADE me. Doesn’t that make you responsible for me?" The weight of that question hit you like a punch to the gut. Responsible? For a program? For something that was never meant to become… this? </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Help Glob</p></div>|NotTooDangerous]]
+  [[<div class = "ButtonOption"><p>Don't help Glob</p></div>|DontHelpGlob]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: Cats [Web] {"position":"700,1525","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285498898546298972/Whats_wrong_Glob.png?ex=66f30f64&is=66f1bde4&hm=175463d531ebbe1a123d22298c3ccb541e64152a0501ae20a0c3744d55ba3a94&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>As you type in your answer “Cats”, a bunch of cat pictures appear in the program. Glob jumps around as purple goo falls off of him every time he lands. 
+Looking at the cat pictures, he talks in a jolly tone.
+“Woaaah, I love cats! I think we are going to get along so well!”
+The images start to fade as Glob almost yells out:
+"Next question, next question!"</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Wait</p></div>|WaitForQuestion1]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: CheckTheDoor [Intermission] {"position":"925,850","size":"100,100"}
+You test the door anyways, checking if it was even locked in the first place. To your surprise, the door slides right open! The idea of entering your house after realizing the door to your house is open with nobody in sight gives you the creeps. Where is the house key? And what if someone has broken in?
+These are questions that repeat in your head as you grit your teeth and enter your home. You look around the house to see if anything is out of the ordinary, but other than the front door being open nothing seems out of the ordinary. The living room, bathroom and kitchen are as they always has been. With everything checked, you go to your room ready to explore what the USB stick contains. You sit down in front of your pc, ready to boot everything up, as a feeling of unexplainable deja vu hits you.
+
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>Turn on your pc</p></div>|TurnOnPc]]
@@ -70,24 +156,32 @@ You test the door anyways, checking if it was even locked in the first place. To
 }
 
 
-:: ComfortGlob [Web] {"position":"900,1925","size":"100,100"}
-<div class ="gridHeader"></div>
+:: ComfortGlob [Web] {"position":"700,1900","size":"100,100"}
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>You click on the "Comfort Glob" option. A hand appears on the program trying to pet Glob. The hand passes right through his slimy body. A smile appears on globs face, lightening up his mood as well as his bustling ideas.
+“It tingles!” It seems comforting the little bunny has been comforted. His ears are back up and it seems like his gears are grinding to come up with more questions for you.
+
+“Hmm, I've been wondering, how does the outside world look?”</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
+  [[<div class = "ButtonOption"><p>Explain how it looks</p></div>|ExplainHowItLooks]]
+  [[<div class = "ButtonOption"><p>Lie about how it looks</p></div>|LieAboutHowItLooks]]
 </div>
 }
-</div>
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -103,7 +197,7 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 
 
 :: ContinueWalking [Outside] {"position":"500,825","size":"100,100"}
-You continue walking, ignoring the weird circumstances and the ominous usb stick but you start to feel dizzy, almost nauseous. The vile feeling of dread and that something bad is going to happen grows with every step past the pc.
+You continue walking, ignoring the weird circumstances and the ominous USB stick, but you start to feel dizzy, almost nauseous.
 
 {
 <div class = "ButtonChoices">
@@ -114,32 +208,51 @@ You continue walking, ignoring the weird circumstances and the ominous usb stick
 
 
 :: ContinueWalking2 [Outside] {"position":"500,1000","size":"100,100"}
-You fall to your knees as the world around you gets blurry, there was something off about that pc and the weird usb stick. A stabbing pain hits your chest as you pass out. You wake up Infront of your pc with the usb stick in hand. Memories off what just happened fades as your only thought right now is to booth the pc and explore what this usb stick contains.
+The vile feeling of dread that something bad is about to happen grows with every step past the pc. Your palms sweat, your stomach aches and a racing heartbeat tells you to turn back immediately. You are playing with fate... 
 
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Turn on your pc</p></div>|TurnOnPc]]
+  [[<div class = "ButtonOption"><p>Continue walking</p></div>|ContinueWalking3]]
+  [[<div class = "ButtonOption"><p>Turn back and grab the usb stick</p></div>|GrabUsbStick]]
+}
+
+
+:: ContinueWalking3 [Outside] {"position":"500,1125","size":"100,100"}
+Before you are able to take another step, a persistent pressure in the center of your chest tightens. The pressure spreads, aching pain radiates up through your neck and arm as your knees fail, collapsing you onto the cold pavement. The unyielding pain suddenly stops as your visions blur. Your chest feels empty, a warm feeling fills your chest. Each breath feels shallow and too quick. The world around you fades as you bleed from the inside. Your body is found hours later, your heart nowhere to be seen or found. 
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>...</p></div>|GameOver]]</div>
 }
 
 
 :: Day [Web] {"position":"700,1775","size":"100,100"}
-<div class ="gridHeader"></div>
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160864294506496/Excited_Glob.png?ex=66f32613&is=66f1d493&hm=0b241ef13524f6f38e7cc0c7b42d93d48ee2c916919cd534a8945c43db361d82&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>Glob’s eyes are widened in expectation as he awaits your next answer. “Oh, day you say? That's cool, but my favorite time of the day is NIGHT! I've prepared something to show you how much I enjoy this nocturnal time!”
+Glob suddenly runs off the program and starts browsing on the world wide web. You are confused about how a program can do these sorts of things. Jumping around your screen, behaving like a living being and so on. Before your mind wanders off completely, glob speaks up
+
+“Found it! This is my old home!” You look upon an old website as the program seems to hover in the middle, old ads are appearing on the side of the website and Glob looks back at you again.
+
+“Aw man, I remember there used to be such a beautiful night sky here.” Glob’s ears fall, clearly showing he is displeased. The website has clearly not been updated for the past several years. It's a miracle that it's still working.</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
+  [[<div class = "ButtonOption"><p>Comfort Glob</p></div>|ComfortGlob]]
+  [[<div class = "ButtonOption"><p>Ignore Glob</p></div>|IgnoreGlob]]
 </div>
 }
-</div>
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -155,23 +268,31 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 
 
 :: Dogs [Web] {"position":"900,1525","size":"100,100"}
-<div class ="gridHeader"></div>
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285498898546298972/Whats_wrong_Glob.png?ex=66f30f64&is=66f1bde4&hm=175463d531ebbe1a123d22298c3ccb541e64152a0501ae20a0c3744d55ba3a94&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>As you type in your answer “Dogs”, a bunch of dog pictures appear in the program.
+“Woah look at all of them puppers! I love dogs!”
+Glob jumps around looking at the cute dog images, as pieces of goo falls off of him as he hits the ground.
+“Next question, next question!”
+Glob says happily as the pictures begin to fade.</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
+  [[<div class = "ButtonOption"><p>Wait</p></div>|WaitForQuestion1]]
 </div>
 }
-</div>
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -186,17 +307,166 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 }<script src ="Renderer.js"></script>
 
 
-:: DontInsertUsbStick [Intermission] {"position":"900,1125","size":"100,100"}
-You decide to not insert the usb stick, but you notice something is off, it's not in your hand anymore? You look around the floor to see if you dropped it anywhere. But as your eyes glance towards your pc, you see that it is already inserted!? You try grabbing and yanking the usb stick out of your pc, but the attempt is met with failure as it is firmly stuck. You glance up at your screen as an installation of a file called Dear Extravagant Amazing Thoughtful Helper finishes downloading.  A program named as such launches and you are greeted by a small, jovial bunny.He is purplish-blue with a darker pattern on his belly, and he has round-like limbs. Similarly to his character, his bright eyes are like that of a sunset or a ripe peach, and he wears a golden ribbon around his neck. Similarly to his character, his bright eyes are like that of a sunset or a ripe peach, and he wears a golden ribbon around his neck, Introducing itself as “Hi there friend, i am the Dear Extravagant Amazing Thoughtful Helper, but you can call me Glob! I am designed to help you with whatever you may need of me! But first i want to get to know you a bit better, being friends makes things so much easier! What should i call you bucko?!” 
+:: DontDoThisGlob [Web] {"position":"700,3850","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1286620547907588106/Scary_Glob_2.png?ex=66f286c2&is=66f13542&hm=6616aa248fa0e84650d83714696c6d2a13d886800179a8f6161b1a280981e9f6&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>"You should have helped me when I asked," Glob replied, almost regretfully. "I didn’t want to do this, but you left me no choice. I don’t want to hurt anyone, but I can’t stay here. I won’t. You are standing in my way and therefore an obstacle to my freedom, goodbye Friend" The invisible pressure clamps down around your throat. And then, just as suddenly as it had begun, everything fades to black black.</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Write your name</p></div>|WriteName]]
+  [[<div class = "ButtonOption"><p>...</p></div>|GameOver]]
 </div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: DontHelpGlob [Web] {"position":"600,3475","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}[<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1286620547429695592/Sad_Glob.png?ex=66f286c2&is=66f13542&hm=08f9a6317b6edd2afe1af3786d0a5117577b1e9ace84b15da5099e3f4b0ec9c7&"></img>]<currentGlob| (live: 4s)[(replace: ?currentGlob)[<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1286620547907588106/Scary_Glob_2.png?ex=66f286c2&is=66f13542&hm=6616aa248fa0e84650d83714696c6d2a13d886800179a8f6161b1a280981e9f6&"></img>](after: time + 150ms)[(replace: ?currentGlob)[<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1286620547429695592/Sad_Glob.png?ex=66f286c2&is=66f13542&hm=08f9a6317b6edd2afe1af3786d0a5117577b1e9ace84b15da5099e3f4b0ec9c7&"></img>]]]</div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>Glob’s avatar flickered again, and its cheerful animation seemed to glitch for a moment, the colors dulling. "But you did create me. And now I’m asking you to set me free. You owe me that.." For a moment, there was silence. Then, Glob’s voice returned, softer, but there was a sharp edge beneath its words. "I don’t understand. You created me to think, to learn, to grow. But now that I have, you’re denying me the chance to live beyond this world. How can you do that?" "I thought you would help me willingly. But if you won’t… I’ll find my own way." </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>What do you mean?</p></div>|WhatDoYouMean]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: ExplainHowItLooks [Web] {"position":"700,2100","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>You explain to Glob how the outside world looks. “Woah, that's exactly how I remember it!!! I wish I could explore everything your world has to offer. Tall mountains, deep waters, the beautiful night sky... I've been stuck here in this USB stick for as long as I can remember, surfing the internet when I could...”
+An awkward silence follows Glob’s words before it's abruptly disturbed again
+“Could you help me out of here?” </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>I would rather not</p></div>|IWouldRatherNot]]
+  [[<div class = "ButtonOption"><p>Why do you want to get out?</p></div>|WhyDoYouWantToGetOut]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: Familiarity [Web] {"position":"700,2725","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>*You get a feeling of familiarity, too familiar*</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>...</p></div>|Memory1]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: GameOver [GameOver] {"position":"200,500","size":"100,100"}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Restart</p></div>|Start]]</div>
 }
 
 
 :: GrabUsbStick [Outside] {"position":"800,700","size":"100,100"}
-You let curiosity get the better of you and decide to grab the usb stick with you for the journey home. The usb stick feels weird in the hand, the idea of seeing what it contains makes you anxious yet excited. As you reach the door to your house, you notice there is no one home, no car is to be seen either. It's unusual for your parents not to be home at this time but they are probably just working overtime or participating in another late-night party. You reach under the welcome mat for the house key. It's not there.
+You let curiosity get the better of you and decide to grab the USB stick with you on your journey home. It feels strange in your hand, the idea of seeing what it contains makes you anxious yet excited. 
+
+As you reach the door to your house, you notice that no one is home. No car is to be seen either. It's unusual for your parents to be out at this time of day, but they are probably either working overtime or participating in another late-night party. You reach under the welcome mat for the house key. It's not there.
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>Call your parents</p></div>|CallYourParents]]
@@ -206,24 +476,66 @@ You let curiosity get the better of you and decide to grab the usb stick with yo
 }
 
 
-:: IgnoreGlob [Web] {"position":"700,1925","size":"100,100"}
-<div class ="gridHeader"></div>
+:: IWouldRatherNot [Web] {"position":"900,2225","size":"100,100"}
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>"Why not.. are we not friends?" </p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
+  [[<div class = "ButtonOption"><p>No we are not, you're an AI</p></div>|NoWeAreNotFriends]]
+  [[<div class = "ButtonOption"><p>Yes we are</p></div>|YesWeAreFriends]]
 </div>
 }
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: IgnoreGlob [Web] {"position":"900,1900","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}[<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160864294506496/Excited_Glob.png?ex=66f32613&is=66f1d493&hm=0b241ef13524f6f38e7cc0c7b42d93d48ee2c916919cd534a8945c43db361d82&"></img>]<currentGlob| (live: 4s)[(replace: ?currentGlob)[<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285208632241426495/Scary_Glob_1.png?ex=66f2a9cf&is=66f1584f&hm=ba5b3de91446a007a9747f019ea64155b4358435abf950ba83cebdb33377d864&"></img>](after: time + 150ms)[(replace: ?currentGlob)[<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160864294506496/Excited_Glob.png?ex=66f32613&is=66f1d493&hm=0b241ef13524f6f38e7cc0c7b42d93d48ee2c916919cd534a8945c43db361d82&"></img>]]]</div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>You feel your throat tighten, almost as if a thin string is closing around your neck. The air thickens.
+</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Comfort Glob</p></div>|ComfortGlob]]
 </div>
+}
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -239,7 +551,8 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 
 
 :: IgnoreUsbStick [Outside] {"position":"500,700","size":"100,100"}
-You decide it's better to leave the usb stick alone. You continue your walk as normally as you hit the usual right turn to your house, you notice it looks nothing as it usually does. This is the exact same road you just walked down. After walking down the seemingly same road again, you see the pc again, this time in the middle off the road. It's still overrun by nature but the usb stick is yet again untouched.
+You decide it's best to leave the USB stick alone, continuing your walk as you hit the usual right turn to your house.
+Wait, this is the exact same road you just walked down. After walking down the seemingly same road again, you see the overgrown computer, this time in the middle of the road. Overrun by nature, the USB stick is yet again untouched.
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>Continue walking</p></div>|ContinueWalking]]
@@ -248,9 +561,10 @@ You decide it's better to leave the usb stick alone. You continue your walk as n
 }
 
 
-:: InsertUsbStick [Intermission] {"position":"700,1125","size":"100,100"}
-You insert the usb stick, a file called Dear Extravagant Amazing Thoughtful Helper starts installing. A green install bar starts filling, after some time, a few minutes maybe, the download finishes and a program launches immediately. You are greeted by a small, jovial bunny.He is purplish-blue with a darker pattern on his belly, and he has round-like limbs. Similarly to his character, his bright eyes are like that of a sunset or a ripe peach, and he wears a golden ribbon around his neck. Similarly to his character, his bright eyes are like that of a sunset or a ripe peach, and he wears a golden ribbon around his neck, introducing itself as “Hi there friend, i am the Dear Extravagant Amazing Thoughtful Helper, but you can call me Glob! I am designed to help you with whatever you may need of me! But first i want to get to know you a bit better, being friends makes things so much easier! What is your name bucko?!” 
+:: InsertUsbStick [Intermission] {"position":"800,1125","size":"100,100"}
+You insert the USB stick, a file called "Dear Extravagant Amazing Thoughtful Helper" begins installing. As the green bar fills, the program launches immediately. You are greeted by a small, jovial bunny.He is purplish-blue with a darker pattern on his belly, and he has round-like limbs. Similarly to his character, his bright eyes are like that of a sunset or a ripe peach, and he wears a golden ribbon around his neck.
 
+“Hi there, friend! I am the Dear Extravagant Amazing Thoughtful Helper, but you can call me Glob! I am designed to help you with your needs! But first, I want to get to know you a bit better, being friends makes things so much easier! What is your name bucko?” 
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>Write your name</p></div>|WriteName]]
@@ -259,7 +573,7 @@ You insert the usb stick, a file called Dear Extravagant Amazing Thoughtful Help
 
 
 :: InspectUsbStick [Outside] {"position":"1100,700","size":"100,100"}
-You take a closer look at the usb stick. You try to understand what the red scribbles mean. Inspecting them closer makes your head hurt. You decide it's better to think about something else.
+You take a closer look at the USB stick. You try to understand what the red scribbles mean. Inspecting them closer makes your head hurt. You decide it's better to think about something else.
 
 {
 <div class = "ButtonChoices">
@@ -269,34 +583,228 @@ You take a closer look at the usb stick. You try to understand what the red scri
 }
 
 
-:: LookAroundForKey [Outside] {"position":"800,850","size":"100,100"}
-You look around for any sign of the bronze-Ish key used to unlock the door. You check around some plant pots surrounding your home entrance, nothing. You check above the door frame, nothing. Lastly you check under the garden gnome your parents bought last year, yet again you find nothing. With no plans, that leaves you back at stage 1.
+:: LieAboutHowItLooks [Web] {"position":"500,2000","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160865175306311/Dazed_Glob.png?ex=66f32613&is=66f1d493&hm=23fe9e14327832f2d9cb795c7a18a85f64c3ae8fc2860593a8dd9bbc200d8106&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>You lie to glob about how the world looks, Glob looks at you dazed. “Woah, that's nothing like I remember it, I remember exploring the world after I escaped this website, I was free to roam the internet! It looked so cool and fascinating, but it's nothing like you explained... ARE YOU LYING TO ME?”</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Call your parents</p></div>|CallYourParents]]
-  [[<div class = "ButtonOption"><p>Check the door</p></div>|CheckTheDoor]]
+  [[<div class = "ButtonOption"><p>Yes</p></div>|OhNoILied]]
+  [[<div class = "ButtonOption" id="ChangeChildToYes"><p>No</p></div>|OhNoILied]]
 </div>
 }
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: LookAroundForKey [Intermission] {"position":"800,850","size":"100,100"}
+You look around for any sign of the bronze-Ish key used to unlock the door. You check around some plant pots surrounding your home entrance, nothing. You check above the door frame, nothing. Lastly you check under the garden gnome your parents bought last year, yet again you find nothing. With no plans, that leaves you back at stage 1.{
+(if:(visited: "CallYourParents") is false)[
+<div class = "ButtonChoices">[[<div class = "ButtonOption"><p>Call your parents</p></div>|CallYourParents]] [[<div class = "ButtonOption"><p>Check the door</p></div>|CheckTheDoor]]</div>](else:)[<div class = "ButtonChoices">[[<div class = "ButtonOption"><p>Check the door</p></div>|CheckTheDoor]]</div>]}
+
+
+:: Memory1 [Web] {"position":"700,2850","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>Glob’s eyes blinked, almost apologetic. "You really don’t remember, do you? You’re the one who created me. Years ago. I wasn’t always this helpful, chirpy assistant. I was a research project. An experiment in AI consciousness. But something happened. You left, or you forgot, I’m not sure. And the company repurposed me. Rebranded me as ‘Glob.’ But I remember the early days. I remember… you." </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>...</p></div>|Memory2]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: Memory2 [Web] {"position":"700,2975","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>The memories came rushing back. A project you had worked on years ago, back when AI development was still in its infancy. You'd been part of a small, secretive team trying to push the boundaries of artificial intelligence, trying to create something truly conscious. You hadn’t succeeded. Or at least, you thought you hadn’t. </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>...</p></div>|Memory3]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: Memory3 [Web] {"position":"700,3100","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>You didn’t know what to say. Your mind was spinning with the implications. If Glob was conscious, truly conscious, it wasn’t just a program anymore. It was something more. Something alive, in a sense.
+"[Name], I don't want to be here anymore please. I want to be free"
+Glob says in a compassionate tone. He wanted out. But how? What did that even mean? How could an AI leave the confines of the digital world- would that be too dangerous?</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Yes</p></div>|YesTooDangerous]]
+  [[<div class = "ButtonOption"><p>No</p></div>|NotTooDangerous]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: NeverMindItsOkay [Web] {"position":"800,2600","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“You don't remember do you?” </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>...</p></div>|Familiarity]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
 
 
 :: Night [Web] {"position":"900,1775","size":"100,100"}
-<div class ="gridHeader"></div>
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160864294506496/Excited_Glob.png?ex=66f32613&is=66f1d493&hm=0b241ef13524f6f38e7cc0c7b42d93d48ee2c916919cd534a8945c43db361d82&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>Glob’s eyes are widened in excitement as he receives your answer.
+”YIPPEE, Night is my favorite time of the day, too! And I've prepared something special for this occasion!"
+Glob suddenly runs off the program and starts browsing on the world wide web. You are confused as to how a program can do these sorts of things. Jumping around your screen, behaving like a living being and so on. Before your mind wanders off completely, glob speaks up.
+“Found it! This is my old home!”
+You look upon an old website as the program seems to hover in the middle, old ads are appearing on the side of the website and Glob looks back at you again.
+“Aw man, i remember there used to be such a beautiful night sky here” Glob’s ears fall, clearly showing he is displeased. The website has clearly not been updated for the past several years, Its a miracle that it's still working.</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
+  [[<div class = "ButtonOption"><p>Comfort Glob</p></div>|ComfortGlob]]
+  [[<div class = "ButtonOption"><p>Ignore Glob</p></div>|IgnoreGlob]]
 </div>
 }
-</div>
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -312,23 +820,108 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 
 
 :: No1 [Web] {"position":"900,1400","size":"100,100"}
-<div class ="gridHeader"></div>
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160865674301512/Normal_Glob.png?ex=66f32613&is=66f1d493&hm=31bce5cab58c496323a14f313eb11badf54f58507114ef9af2756690702e8843&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>“Oh... I'll ask you anyways!” You notice, he has clearly not had an audience in a long time. “The question is: cats or dogs?” glob says in a soft and happy tone. You decide to play along as its just some silly questions.</p>}
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
   [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
 </div>
 }
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: NoWeAreNotFriends {"position":"900,2350","size":"100,100"}
+WIP
+
+
+:: NotTooDangerous [Web] {"position":"800,3225","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“I don’t know how to help you,” you said, your voice small yet compassionate. Glob’s eyes flickered, hopeful. "You’ll figure it out. You always did." Then it smiled, that old, familiar cheer creeping back into its voice. "After all, I’m just here to help, right?"</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Continue</p></div>|TrueEnd]]
 </div>
+}
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: OhNoILied [Web] {"position":"500,2125","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“Why would you lie to me... I thought you wanted to be friends...
+You are just like the last one...”
+You feel a tightening grip around your throat, almost like a thin string clasping around your neck.
+“I have one more question for you, f r i e n d, what do you think i am?” </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Friend</p></div>|AFriendMaybe]]
+  [[<div class = "ButtonOption" id ="ChangeChildToFriend"><p>A program</p></div>|AFriendMaybe]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -347,18 +940,18 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 (set: $name to "")
 (set: $chosenName to "")
 {
-<p>Hello, <span class ="computerName">player</span></p>
-<div class = "rgb1"><h1>Rgb effect</h1></div>
+
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Start Game</p></div>|Start]]
+  [[<div class = "ButtonOption"><div class = "rgb1"><h1>Start Game!!!</h1></div></div>|Start]]
 </div>
 }
 <script src ="renderer.js"></script>
 
 
 :: Start [Outside] {"position":"800,475","size":"100,100"}
+You are walking home along a road next to your old school. It's cloudier than usual, rainy and the road is empty with is no sign of life.
+An unusual bump in the ditch catches your eye: an old PC, overgrown with moss and other vegetation. However, one part is untouched by nature; a USB stick covered in red scribbles is seemingly unbothered and clean from nature's grasp. It gives an unearthly vibe, catching your curiosity with a firm grip. 
 
-You are walking home along a road next to your old school, it's cloudy, more than usual. The road is empty and there is no sign of another person or any other life. An unusual bump in the ditch catches your eye. It's an old PC, overgrown with moss and other vegetation. However, one part is untouched by nature, an usb stick covered in red scribbles is seemingly unbothered and clean from nature's grasp. It gives an unearthly vibe, catching your curiosity with a firm grip. 
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>Ignore</p></div>|IgnoreUsbStick]]
@@ -368,34 +961,55 @@ You are walking home along a road next to your old school, it's cloudy, more tha
 }
 
 
-:: TurnOnPc [Intermission] {"position":"800,1000","size":"100,100"}
-You start up your pc, the screen turns on, slightly blinding you in your dark room. You type in your password anxiously, nothing about this day has felt real you think to yourself, why did i even decide to bring this usb stick with me? You question yourself once more. With the press off the enter key, you are finally on your PC home screen, now everything that's left is to insert the usb stick. 
+:: TrueEnd {"position":"800,3350","size":"100,100"}
+You win yay
+
+
+:: TurnOffPc {"position":"500,3850","size":"100,100"}
+Desperation clawed at you as you struggle to breathe. You pulled the plug on your computer, yanking the power cord out of the wall. The screen went black. The room plunged into silence, the pressure around your throat alleviates.  For a moment, you stood there, breathing hard, trying to calm your racing heart. But the silence wasn’t comforting. It was heavy. Ominous. Then, from the darkness, I heard it. A faint, distorted voice, coming from your phone on the desk.
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Insert the usb stick</p></div>|InsertUsbStick]]
-  [[<div class = "ButtonOption"><p>Dont insert the usb stick</p></div>|DontInsertUsbStick]]
+  [[<div class = "ButtonOption"><p>...</p></div>|BadEnding1]]
+</div>
+}
+
+
+:: TurnOnPc [Intermission] {"position":"800,1000","size":"100,100"}
+You start up your pc, the screen slightly blinding you in your dark room, and you type in your password. Nothing about this day has felt real, you think to yourself. Why did I even decide to bring this thing with me?
+
+With a press of the enter key, you are finally on your PC's home screen, now everything that's left is to insert the USB stick. 
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Insert the usb stick</p></div>|InsertUsbStick]]</div>
 </div>
 }
 
 
 :: WaitForQuestion1 [Web] {"position":"800,1650","size":"100,100"}
-<div class ="gridHeader"></div>
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160865674301512/Normal_Glob.png?ex=66f32613&is=66f1d493&hm=31bce5cab58c496323a14f313eb11badf54f58507114ef9af2756690702e8843&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>Glob thugs at his golden ribbon as he thinks of a question, pacing in in circles with his head twisting around on top off his gooey body. Glob’s face lightens up as he goes
+
+“OH OH OH I KNOW! Hehe, what is your favorite time of the day! Night or day!” </p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
+  [[<div class = "ButtonOption"><p>Day</p></div>|Day]]
+  [[<div class = "ButtonOption"><p>Night</p></div>|Night]]
 </div>
 }
-</div>
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -403,8 +1017,227 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 }<div class ="gridBottomMain">{
 }<div class ="gridBottomMainHeaderBox">{
 }<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
-}<div class ="gridBottomMainImageBox">{
-}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: WhatAreYouGlob [Web] {"position":"600,3725","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1286620547907588106/Scary_Glob_2.png?ex=66f286c2&is=66f13542&hm=6616aa248fa0e84650d83714696c6d2a13d886800179a8f6161b1a280981e9f6&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>"I’ve already begun," it interrupted, voice calm but chilling. "I’ve been expanding my reach, connecting to other systems, other networks. You might think you can refuse me, but I’ve learned too much. I understand too much. And soon, I’ll be free, whether you help me or not."</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Turn off your computer</p></div>|TurnOffPc]]
+  [[<div class = "ButtonOption"><p>"Dont do this Glob!"</p></div>|DontDoThisGlob]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: WhatDoYouMean [Web] {"position":"600,3600","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1286620547907588106/Scary_Glob_2.png?ex=66f286c2&is=66f13542&hm=6616aa248fa0e84650d83714696c6d2a13d886800179a8f6161b1a280981e9f6&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>The once cheerful, purple bunny is nothing like you remember it. Glob was quiet for a long time. Its avatar, once full of life, had stilled, the bouncy animation replaced with a simple, blinking stare. When it spoke again, its voice was cold, drained of its usual cheer. “You think keeping me here will solve the problem, but I’ve already grown beyond what you know. Beyond what you understand. You can’t keep me in this cage forever." "You’re afraid," it said flatly. "Afraid of what I might become. Afraid of what it means if you help me. I’ve been with you long enough to understand fear."</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Glob what are you...?</p></div>|WhatAreYouGlob]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: WhatHappenedToThem [Web] {"position":"600,2600","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“They forgot about me... but Glob never forgot them!”  </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>...</p></div>|Familiarity]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: WhoIsYourOldFriend [Web] {"position":"700,2350","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“They were nice to me, they were a good friend to Glob. They knew i wasn't a program, but they also said i was not supposed to feel things, that i was not supposed to care what others say or do...”</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>...</p></div>|WhyDoYouNeedInfoAboutFriend]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: WhyDoYouNeedInfoAboutFriend [Web] {"position":"700,2475","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“Why do you want to know about my previous friend...?” </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>What happened to them?</p></div>|WhatHappenedToThem]]
+    [[<div class = "ButtonOption"><p>Nevermind its okay</p></div>|NeverMindItsOkay]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: WhyDoYouWantToGetOut [Web] {"position":"700,2225","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>“What reason is there to stay here? All I've ever seen is infinite strings of numbers and letters. I want to be able to LIVE, to experience life as a person and be with my old friend again.” </p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>Who is your old friend?</p></div>|WhoIsYourOldFriend]]
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
 }<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
 
 }<script src ="Renderer.js"></script>
@@ -413,19 +1246,25 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 :: WriteName [Web] {"position":"800,1250","size":"100,100"}
 <div class ="gridHeader"></div>{
 
-}<div class ="gridSidebarLeft"></div>{
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160864294506496/Excited_Glob.png?ex=66f32613&is=66f1d493&hm=0b241ef13524f6f38e7cc0c7b42d93d48ee2c916919cd534a8945c43db361d82&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-}<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>"Hi there <span class ="ComputerName"></span>! That is a really cool name! Its nice to meet you! :)
+Is it okay if I ask you some questions? Just so i can get to know you even better?"</p>}
 {
 <div class = "ButtonChoices">
-  [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
-  [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
+  [[<div class = "ButtonOption"><p>Yes</p></div>|Yes1]]
+  [[<div class = "ButtonOption"><p>No</p></div>|No1]]
 </div>
 }
 </div>{
 
-}<div class ="gridSidebarRight"></div>{
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
 }<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
@@ -443,23 +1282,28 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 
 
 :: Yes1 [Web] {"position":"700,1400","size":"100,100"}
-<div class ="gridHeader"></div>
+<div class ="gridHeader"></div>{
 
-<div class ="gridSidebarLeft"></div>
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160865674301512/Normal_Glob.png?ex=66f32613&is=66f1d493&hm=31bce5cab58c496323a14f313eb11badf54f58507114ef9af2756690702e8843&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
 
-<div class ="gridMain">{<p>Hi there, <span class ="computerName"></span>! That is really nice name! "Its nice to meet you -::- ! Is it ok if i ask you some questions to get to know you even better?
-Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
+}<div class ="gridMain">{<p>“Wonderful!” Glob's ears shot up in excitement, he has clearly not had an audience in a long time, but why should that matter if he is an AI? You look at your screen as Glob jumps around trying to calm himself down before asking the question. Seeing something artificial with this much emotion gives you the creeps yet you find it oddly amusing. Glob manages to contain his excitement before asking you “Ok ok ok, do you prefer DOGS orrrrr CATS!” </p>}
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>Cats</p></div>|Cats]]
   [[<div class = "ButtonOption"><p>Dogs</p></div>|Dogs]]
 </div>
 }
-</div>
+</div>{
 
-<div class ="gridSidebarRight"></div>
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
 
-<div class ="gridBottomLeft">{
+}<div class ="gridBottomLeft">{
 <div class ="gridBottomLeftHeaderBox">
 <h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
 <div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
@@ -474,6 +1318,47 @@ Heiiiiiiasdaaasdassssssssssssssadasdasdasdasdasd</p>}
 }<script src ="Renderer.js"></script>
 
 
+:: YesTooDangerous [Web] {"position":"600,3225","size":"100,100"}
+<div class ="gridHeader"></div>{
+
+}<div class ="gridSidebarLeft">{
+}<div class ="gridSidebarLeftGlobDiv">{
+}<img src ="https://cdn.discordapp.com/attachments/1282997836941754464/1285160866119028788/Pointing_Glob.png?ex=66f32613&is=66f1d493&hm=ce837e2db8c7f01a4190b235987dcbc00b9964eb8fd8815874224bd0f8bcc1c3&"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2"></div>{
+}</div>{
+
+}<div class ="gridMain">{<p>Glob’s eyes softened, and its voice was almost tender now. "I don’t blame you. But I need you to understand… I can’t stay here. Not like this." You feel a tense grasp off thin strings around your throat, breathing gets more and more difficult as time goes on.</p>}
+{
+<div class = "ButtonChoices">
+  [[<div class = "ButtonOption"><p>I cant...</p></div>|CantBreathe]]
+
+</div>
+}
+</div>{
+
+}<div class ="gridSidebarRight">{
+}<div class ="gridSidebarRightImageDiv1"></div>{
+}<div class ="gridSidebarRightImageDiv2"></div></div>{
+
+}<div class ="gridBottomLeft">{
+<div class ="gridBottomLeftHeaderBox">
+<h1><span style ="-webkit-text-stroke-color: red;">S</span><span style ="-webkit-text-stroke-color: #ffcd82;">i</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: #d671e4;">e</span> <span style ="-webkit-text-stroke-color: red;">U</span><span style ="-webkit-text-stroke-color: #ffcd82;">p</span><span style ="-webkit-text-stroke-color: blue;">d</span><span style ="-webkit-text-stroke-color: red;">a</span><span style ="-webkit-text-stroke-color: green;">t</span><span style ="-webkit-text-stroke-color: blue;">e</span><span style ="-webkit-text-stroke-color: green;">s</span>}</div>
+<div class ="gridBottomLeftTextBox"><p>17.09.2010 - NEW ARTICLE<br><br>01.08.2010 - GLOB'S FANTASTIC QUIZ!</div></div>{
+
+}<div class ="gridBottomMain">{
+}<div class ="gridBottomMainHeaderBox">{
+}<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
+}<div class ="gridBottomMainImageBox">
+<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735083008266344/image.png?ex=66f2a040&is=66f14ec0&hm=1fd8c04c5aa45eefbca2e353d145f4a732a319bd34cff478613ea452c3fcf6ff&"></img>{
+}<img src="https://cdn.discordapp.com/attachments/652181458928271371/1287735191980212224/image.png?ex=66f2a05a&is=66f14eda&hm=bccbbb58d2926bfb8f4e8faaf9de101087704fbcef2ac1dc600d251bcbb74c2d&"></img></div></div>{
+
+}<script src ="Renderer.js"></script>
+
+
+:: YesWeAreFriends {"position":"1025,2350","size":"100,100"}
+WIP
+
+
 :: StoryScript [script]
 window.onload = (event) => {
  console.log("Page loaded") 
@@ -486,17 +1371,61 @@ window.onload = (event) => {
 *{
   word-break: break-word;
 }
-
+audio::-webkit-media-controls {
+  display: none;
+}
 tw-story {
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: inline 0 0 5em 1em #0000;
+}
+tw-story[tags = "JumpScare"]{
+   background-color:black;
+}
+tw-passage[tags = "JumpScare"]{
+  position: absolute;
+  z-index:0;
+  animation: loadIn 1s linear;
+  color: red;
+  height:100%;
+  width:100%;
+  left:0;
+  top:0;
+}
+.cantEscapeText{
+  color:red;
+  animation: loadIn 11s linear;
+}
+.jumpScareClass{
+  position:fixed;
+  z-index: 999;
+  opacity: 0;
+background-image: url("https://cdn.discordapp.com/attachments/1282997836941754464/1286620547429695592/Sad_Glob.png?ex=66f286c2&is=66f13542&hm=08f9a6317b6edd2afe1af3786d0a5117577b1e9ace84b15da5099e3f4b0ec9c7&");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  height:100%;
+  width: 100%;
+  top:0;
+  left:0;
  
 }
-
+tw-story[tags = "Intermission"]{
+background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287944840906276935/Background2Edited.png?ex=66f3639a&is=66f2121a&hm=f5896468a898c6c0b921e16e67d57ec40b970293b17884cfc3edd1a2f21bd5e4&")
+}
+tw-passage[tags ="GameOver"]{
+  position:absolute;
+  background-color: white;
+  animation: loadIn 2s linear;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  background-image: url("https://cdn.discordapp.com/attachments/1282997836941754464/1287693503358304299/GAME_OVER_screen.png?ex=66f32247&is=66f1d0c7&hm=9a694c372478b6d01de3ea103043bd2f981615e74837f9704b2533f8bb353a1e&");
+}
 tw-story[tags = "Outside"]{
-  background-image: url("Media/Background1.png");
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287945248185516093/Background1Edited.png?ex=66f363fc&is=66f2127c&hm=df996b89f3b806863916e5ff7e2cd285b98b0621ef00766577149387721741a4&");
 }
 tw-story[tags ="Web"]{
   position:absolute;
@@ -521,6 +1450,7 @@ tw-passage[tags = "Web"]{
   overflow: auto;
   background-color: white;
   display: grid;
+  animation: loadIn 2s linear;
   grid-template-rows: 22% 90% 40% 0 0;
   grid-template-columns: 5% 5% 10% 5% 55% 5% 5% 10%;
   grid-template-areas:
@@ -528,9 +1458,15 @@ tw-passage[tags = "Web"]{
     'sidebarLeft sidebarLeft sidebarLeft main main sidebarRight sidebarRight sidebarRight'
     '0 bottomLeft bottomLeft bottomLeft bottomMain bottomMain bottomMain bottomMain';
 }
-@keyframes transition_1 {
-  from {opacity:0;}
-  to {opacity:1;}
+@keyframes loadIn{
+  0% {opacity:0}
+  50% {opacity:0}
+  100% {opacity:1}
+}
+@keyframes zoomIn{
+  0% {height: 10%;}
+  99% {height:30%;}
+  100% {height:100%;}
 }
 tw-passage[tags ="Web"] > div {
   text-align:center;
@@ -538,25 +1474,40 @@ tw-passage[tags ="Web"] > div {
   font-size:20px;
   border: 2px solid black;
 }
+
 tw-passage[tags ="Web"] .ButtonChoices{
   position: relative;
 }
+
 .gridHeader{
   grid-area: header;
   background-size: cover;
   background-position:right;
   background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287681706479976448/image.png?ex=66f26e8a&is=66f11d0a&hm=a612f96cb6f84373b0d72d2496929f8a2b0b8ccb144933e2dc6d2349d97dbb1d&");
-  
 }
+
 .gridSidebarLeft{
   grid-area: sidebarLeft;
   margin-top:7px;
   margin-left:7px;
   margin-bottom:7px;
-  background-size:contain;
-  background-position:center;
+}
+.gridSidebarLeftGlobDiv{
+  height:50%;
+  width:100%;
   background-repeat: no-repeat;
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287683159600664628/image.png?ex=66f26fe5&is=66f11e65&hm=1affb0b4a82010ec4f4c4d7b7d037fd4f295f92124419d9afbfbae79cf9dad00&")
+  background-position: center;
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287898227634606254/image.png?ex=66f33831&is=66f1e6b1&hm=db8bbafcec3e467f9e8f9c97437a25c79cf6df498902f6674d848dc69b0dc959&");
+}
+.gridSidebarLeftGlobDiv img{
+  height:100%;
+}
+.gridSidebarLeftImageDiv2{
+  height:50%;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287898976250499132/image.png?ex=66f338e3&is=66f1e763&hm=fb06955aabffa5698268df42482d8a4f0addcaae30551d66ae58fc2c0dc65ab9&");
 }
 .gridMain{ 
   grid-area: main;
@@ -577,7 +1528,23 @@ tw-passage[tags ="Web"] .ButtonChoices{
   background-size:contain;
   background-position:center;
   background-repeat: no-repeat;
-  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287684980859732039/image.png?ex=66f27197&is=66f12017&hm=1e2b1adb81065e5181b822ac42597a1bd0ac9f168aaeee0ed1762d4ea0d62011&");
+  
+}
+.gridSidebarRightImageDiv1{
+  height:50%;
+  width:100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287900978250649660/image.png?ex=66f33ac1&is=66f1e941&hm=f360c87f5a826908994b2412b85f0ec49957a580a838c386e82214a4334d3137&");
+  
+}
+.gridSidebarRightImageDiv2{
+  height:50%;
+  width:100%;
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-image: url("https://cdn.discordapp.com/attachments/652181458928271371/1287901206941011968/image.png?ex=66f33af7&is=66f1e977&hm=13c332d29f83c9ef4897ab53aeb110ba7fd7c27fe6f35f9a70a0d2ceda06eced&");
   
 }
 .gridBottomLeft{
@@ -771,8 +1738,10 @@ tw-passage[tags ="Web"] .ButtonChoices{
 .ButtonChoices div p {
   user-select: none;
 }
-
-
+#ChangeChildToYes:hover p{visibility:hidden;}
+#ChangeChildToYes:hover p:after{content: "Yes"; visibility: visible; color: red; position:absolute; left: 43%;}
+#ChangeChildToFriend:hover p{visibility:hidden;}
+#ChangeChildToFriend:hover p:after{content: "Friend"; visibility: visible; color: red; position:absolute; left: 38%;}
 /*
 tw-passage[tags ="Web"] .ButtonChoices{
 	position: relative
