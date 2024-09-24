@@ -316,7 +316,7 @@ Glob says happily as the pictures begin to fade.</p>}
 {
 <div class = "ButtonChoices">
   [[<div class = "ButtonOption"><p>...</p></div>|GameOver]]
-</div>|DontDoThisGlob]]
+</div>
 </div>
 }
 </div>{
@@ -1398,6 +1398,8 @@ tw-passage[tags ="GameOver"]{
 }
 tw-story[tags = "Outside"]{
   background-image: url("Media/Background1Edited.png");
+  background-color: black;
+  background-repeat: no-repeat;
 }
 tw-story[tags ="Web"]{
   position:absolute;
