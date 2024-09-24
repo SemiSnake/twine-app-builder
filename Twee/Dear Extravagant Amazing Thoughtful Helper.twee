@@ -1009,9 +1009,9 @@ With a press of the enter key, you are finally on your PC's home screen, now eve
 <div class ="gridHeader" style ="border: 2px solid red; background-image: url('Media/HeaderImageForWebDistorted')"></div>{
 
 }<div class ="gridSidebarLeft" style ="border: 2px solid red;">{
-}<div class ="gridSidebarLeftGlobDiv" style ="background-image: url('Media/SideBarLeft1Distorted'); background-size: cover;">{
-}<img src ="Media/Scary_Glob1.png"></img></div>{
-}<div class ="gridSidebarLeftImageDiv2" style = "background-image: url('Media/SideBarLeft2Distorted'); background-size: cover;"></div>{
+}<div class ="gridSidebarLeftGlobDiv" style ="background-image: url('Media/SideBarLeft1Distorted.png'); background-size: cover;">{
+}<img src ="Media/Scary_Glob_1.png"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2" style = "background-image: url('Media/SideBarLeft2Distorted.png'); background-size: cover;"></div>{
 }</div>{
 
 }<div class ="gridMain" style ="border: 2px solid red;">{<p>"I’ve already begun," it interrupted, voice calm but chilling. "I’ve been expanding my reach, connecting to other systems, other networks. You might think you can refuse me, but I’ve learned too much. I understand too much. And soon, I’ll be free, whether you help me or not." </p>}
@@ -1024,8 +1024,8 @@ With a press of the enter key, you are finally on your PC's home screen, now eve
 </div>{
 
 }<div class ="gridSidebarRight" style ="border: 2px solid red;">{
-}<div class ="gridSidebarRightImageDiv1" style = "background-image: url('Media/SideBarRight1Distorted'); background-size: cover;"></div>{
-}<div class ="gridSidebarRightImageDiv2" style = "background-image: url('Media/SideBarRight2Distorted'); background-size: cover;" ></div></div>{
+}<div class ="gridSidebarRightImageDiv1" style = "background-image: url('Media/SideBarRight1Distorted.png'); background-size: cover;"></div>{
+}<div class ="gridSidebarRightImageDiv2" style = "background-image: url('Media/SideBarRight2Distorted.png'); background-size: cover;" ></div></div>{
 
 }<div class ="gridBottomLeft" style ="border: 2px solid red" >{
 <div class ="gridBottomLeftHeaderBox">
@@ -1045,9 +1045,9 @@ With a press of the enter key, you are finally on your PC's home screen, now eve
 <div class ="gridHeader" style ="border: 2px solid red; background-image: url('Media/HeaderImageForWebDistorted')"></div>{
 
 }<div class ="gridSidebarLeft" style ="border: 2px solid red;">{
-}<div class ="gridSidebarLeftGlobDiv" style ="background-image: url('Media/SideBarLeft1Distorted'); background-size: cover;">{
-}<img src ="Media/Scary_Glob1.png"></img></div>{
-}<div class ="gridSidebarLeftImageDiv2" style = "background-image: url('Media/SideBarLeft2Distorted'); background-size: cover;"></div>{
+}<div class ="gridSidebarLeftGlobDiv" style ="background-image: url('Media/SideBarLeft1Distorted.png'); background-size: cover;">{
+}<img src ="Media/Scary_Glob_1.png"></img></div>{
+}<div class ="gridSidebarLeftImageDiv2" style = "background-image: url('Media/SideBarLeft2Distorted.png'); background-size: cover;"></div>{
 }</div>{
 
 }<div class ="gridMain" style ="border: 2px solid red;">{<p>The once cheerful, purple bunny is nothing like you remember it. Glob was quiet for a long time. Its avatar, once full of life, had stilled, the bouncy animation replaced with a simple, blinking stare. When it spoke again, its voice was cold, drained of its usual cheer. “You think keeping me here will solve the problem, but I’ve already grown beyond what you know. Beyond what you understand. You can’t keep me in this cage forever." "You’re afraid," it said flatly. "Afraid of what I might become. Afraid of what it means if you help me. I’ve been with you long enough to understand fear." </p>}
@@ -1059,8 +1059,8 @@ With a press of the enter key, you are finally on your PC's home screen, now eve
 </div>{
 
 }<div class ="gridSidebarRight" style ="border: 2px solid red;">{
-}<div class ="gridSidebarRightImageDiv1" style = "background-image: url('Media/SideBarRight1Distorted'); background-size: cover;"></div>{
-}<div class ="gridSidebarRightImageDiv2" style = "background-image: url('Media/SideBarRight2Distorted'); background-size: cover;" ></div></div>{
+}<div class ="gridSidebarRightImageDiv1" style = "background-image: url('Media/SideBarRight1Distorted.png'); background-size: cover;"></div>{
+}<div class ="gridSidebarRightImageDiv2" style = "background-image: url('Media/SideBarRight2Distorted.png'); background-size: cover;" ></div></div>{
 
 }<div class ="gridBottomLeft" style ="border: 2px solid red" >{
 <div class ="gridBottomLeftHeaderBox">
@@ -1081,7 +1081,7 @@ With a press of the enter key, you are finally on your PC's home screen, now eve
 
 }<div class ="gridSidebarLeft">{
 }<div class ="gridSidebarLeftGlobDiv">{
-}<img src ="Media/Whats_Wrong_Glob..png"></img></div>{
+}<img src ="Media/Whats_Wrong_Glob.png"></img></div>{
 }<div class ="gridSidebarLeftImageDiv2"></div>{
 }</div>{
 
@@ -1372,7 +1372,7 @@ tw-passage[tags = "JumpScare"]{
   position:fixed;
   z-index: 999;
   opacity: 0;
-background-image: url("Media/Sad_Glob.png");
+  background-image: url("Media/Sad_Glob.png");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -1396,7 +1396,7 @@ tw-passage[tags ="GameOver"]{
   background-image: url("Media/GAME_OVER_screen.png");
 }
 tw-story[tags = "Outside"]{
-  background-image: url("Background1Edited.png");
+  background-image: url("Media/Background1Edited.png");
 }
 tw-story[tags ="Web"]{
   position:absolute;
