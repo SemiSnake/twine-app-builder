@@ -1276,8 +1276,7 @@ Is it okay if I ask you some questions? Just so i can get to know you even bette
 }<div class ="gridBottomMainHeaderBox">{
 }<h1><span style ="-webkit-text-stroke-color: blue;">W</span><span style ="-webkit-text-stroke-color: red;">e</span><span style ="-webkit-text-stroke-color:  #ffcd82;">b</span><span style ="-webkit-text-stroke-color: #d671e4;">r</span><span style ="-webkit-text-stroke-color: green;">i</span><span style ="-webkit-text-stroke-color: blue;">n</span><span style ="-webkit-text-stroke-color:  #ffcd82;">g</span><span style ="-webkit-text-stroke-color: #d671e4;">s</span></h1></div>{
 }<div class ="gridBottomMainImageBox">
-<img src="Media/PakkeselImage.png"></img>{
-}<img src="Media/HenryCarlsonImage.png"></img></div></div>{
+<img src="Media/PakkeselImage.png"></img><img src="Media/HenryCarlsonImage.png"></img></div></div>{
 
 }<script src ="Renderer.js"></script>
 
